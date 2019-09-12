@@ -1,0 +1,58 @@
+/* 
+Format is: ".namespace/.constructor"
+For below, namespace="ApplyRegexValidationNamespace" constructor="ApplyRegexValidationControl"
+*/
+.ApplyRegexValidationNamespace\.ApplyRegexValidationControl input
+{
+    float:none;
+    height: 2.5rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.ApplyRegexValidationNamespace\.ApplyRegexValidationControl .classDiv {
+    background-color: rgba(191, 9, 0, 0.075);
+    display: inline-flex;    
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    outline: none !important;
+}
+
+.ApplyRegexValidationNamespace\.ApplyRegexValidationControl .classLabel
+{
+	width: 100%;
+    display: initial;
+    font-family: SegoeUI-Semibold, "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI";
+    color: rgb(191, 9, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2rem;
+    font-weight: 600;
+    cursor: default;
+    outline: none !important;
+}
+
+.ApplyRegexValidationNamespace\.ApplyRegexValidationControl .classErrorLabel {
+    font-family: "Dyn CRM Symbol", "Segoe MDL2 Assets";
+    color: rgb(191, 9, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 0.5rem;
+    line-height: 2rem;
+    outline: none !important;
+}
+
+.ApplyRegexValidationNamespace\.ApplyRegexValidationControl .classInput:hover {
+    border-color: #646563;
+}

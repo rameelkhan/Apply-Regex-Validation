@@ -1,0 +1,54 @@
+	<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ApplyRegexValidationNamespace" constructor="ApplyRegexValidationControl" 
+  version="0.0.1" display-name-key="Apply Regex Validation" 
+  description-key="Apply Regex Validation on Text Field" control-type="standard">
+    <!--
+      A type-group to accept all required and supported Text Field Types
+    -->
+    <type-group name="singleLineGroup"> 
+      <type>SingleLine.Text</type> 
+      <type>SingleLine.Phone</type>
+      <type>SingleLine.Email</type>      
+    </type-group>
+
+    <!-- property node identifies a specific, 
+    configurable piece of data that the control expects from CDS
+    
+    Set the boolean attribute "required" for requirement level
+    Set the attribute "usage" as 
+      - bound (to represent an entity attribute that the component can change)
+      - input (read-only values, eg. any config value) -->
+    <property name="textValueToProcess" display-name-key="Input Text" 
+    description-key="Input Text To Process" of-type-group="singleLineGroup" 
+    usage="bound" required="true" />
+    <property name="regexExpressionToProcess" display-name-key="Regex Expression"
+    description-key="Regex Expression To Process" of-type="SingleLine.Text"
+    usage="input" required="true" />
+    <property name="notificationToUser" display-name-key="Field Notification"
+    description-key="Field Notification To User. Default Message will be Incorrect Format."
+    of-type="SingleLine.TextArea" usage="input" required="false" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ApplyRegexValidationControl.css" order="1" />
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <img path="img/default.png" />
+      <resx path="strings/ApplyRegexValidationControl.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    
+    <!-- UNCOMMENT TO ENABLE THE SPECIFIED API
+    <feature-usage>
+      <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+    -->
+  </control>
+</manifest>
