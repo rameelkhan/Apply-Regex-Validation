@@ -1,7 +1,7 @@
 # Apply Regex Validation PCF (PowerApps Component Framework)
 Apply Regex Validation custom control is the Regex based field validation for text fields.
 
-# Usage Instructions
+# Instructions to use:
 1. Download the latest version of solution from [releases](https://github.com/rameelkhan/Apply-Regex-Validation/releases) section
 2. Import the solution to your Dynamics CRM instance
 3. Open the desired Form Editor for the required entity, select the field supported by this control *(SingleLine.Text, SingleLine.Phone, SingleLine.Email)* and click *"Change Properties"* and then select the *"Controls"* tab.
