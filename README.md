@@ -1,5 +1,5 @@
 # Apply Regex Validation PCF (PowerApps Component Framework)
-This control is new implementation of classic task with limiting of options available in one optionset depending on the value chosen in second optionset.
+Apply Regex Validation custom control is the Regex based field validation for text fields.
 
 # Usage Instructions
 1. Download the latest version of solution from [releases](https://github.com/rameelkhan/Apply-Regex-Validation/releases) section
@@ -22,3 +22,9 @@ This control is new implementation of classic task with limiting of options avai
 ![Error Message on field change](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Field_Change.PNG?raw=true, "Error Message on field change")
 2. On Save of Record, if the value in the field doesn't satisfies the Regex, notification will be on field as well on top of form (OOB behaviour).\
 ![Error Message on Save](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Save.PNG?raw=true, "Error Message on Save")
+
+# References:
+- https://docs.microsoft.com/en-us/powerapps/developer/component-framework/implementing-controls-using-typescript
+- https://www.itaintboring.com/dynamics-crm/pcf-controls-now-i-have-my-first-pcf-control-too/
+- https://debajmecrm.com/2019/05/04/what-does-context-object-hold-in-power-apps-custom-component-framework-organization-info-user-info-web-api-methods-and-more/
+- https://www.tutorialspoint.com/typescript/typescript_variables.htm
