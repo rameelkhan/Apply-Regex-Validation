@@ -23,6 +23,9 @@ Apply Regex Validation custom control is the Regex based field validation for te
 2. On Save of Record, if the value in the field doesn't satisfies the Regex, notification will be on field as well on top of form (OOB behaviour).\
 ![Error Message on Save](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Save.PNG?raw=true, "Error Message on Save")
 
+## Note:
+- As per Microsoft (and as of 12-Sept-2019), PowerApps Component Framework is a preview feature (not meant for production use and may have restricted functionality). These features are available before an official release so that customers can get early access and provide feedback.
+
 # References:
 - https://docs.microsoft.com/en-us/powerapps/developer/component-framework/implementing-controls-using-typescript
 - https://www.itaintboring.com/dynamics-crm/pcf-controls-now-i-have-my-first-pcf-control-too/
