@@ -2,19 +2,18 @@
 Apply Regex Validation custom control is the Regex based field validation for text fields.
 
 # Instructions to use:
-1. Download the latest version of solution from [releases](https://github.com/rameelkhan/Apply-Regex-Validation/releases) section
-2. Import the solution to your Dynamics CRM instance
-3. Open the Form Editor for the desired form of the required entity, select the field supported by this control *(SingleLine.Text, SingleLine.Phone, SingleLine.Email)* and click *"Change Properties"* and then select the *"Controls"* tab.
-4. In the Controls tab, click the *"Add Control..."* button, select *"Apply Regex Validation"* in the list of available controls and click *"Add"*.\
+1. Install the managed solution (available with the most latest [release](https://github.com/rameelkhan/Apply-Regex-Validation/releases)) in your Dynamics CRM instance.
+2. Open the Form Editor for the desired form of the required entity, select the field supported by this control *(SingleLine.Text, SingleLine.Phone, SingleLine.Email)* and click *"Change Properties"* and then select the *"Controls"* tab.
+3. In the Controls tab, click the *"Add Control..."* button, select *"Apply Regex Validation"* in the list of available controls and click *"Add"*.\
 ![Add Custom Control](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Adding_Custom_Control.PNG?raw=true, "Add Custom Control")
-5. Select the types of client for which this control will be used.
-6. Property *"Input Text"* will be selected by default.
-7. Insert the Regex which you want to apply to the field for validation in the mandatory *"Regex Expression"* property.
+4. Select the types of client for which this control will be used.
+5. Property *"Input Text"* will be selected by default.
+6. Insert the Regex which you want to apply to the field for validation in the mandatory *"Regex Expression"* property.
 ![Final Control Layout](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Final_Control_Layout.PNG?raw=true, "Final Control Layout")
-8. Insert the message which you want to show the user in the *"Field Notification"* property.
-9. If *"Field Notification"* property is left empty, default message will be *"Incorrect Format"*.
+7. Insert the message which you want to show the user in the *"Field Notification"* property.
+8. If *"Field Notification"* property is left empty, default message will be *"Incorrect Format"*.
 ![Field Notification](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Field_Notification.PNG?raw=true, "Field Notification")
-10. Save settings of the custom control, save and publish the entity form.
+9. Save settings of the custom control, save and publish the entity form.
 
 
 # Control Behaviour:
