@@ -20,7 +20,7 @@ Apply Regex Validation custom control is the Regex based field validation for te
 # Control Behaviour:
 1. On change of field value, if the value in the field doesn't satisfies the Regex, notification will be on field.\
 ![Error Message on field change](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Field_Change.PNG?raw=true, "Error Message on field change")
-2. On Save of Record, if the value in the field doesn't satisfies the Regex, notification will be on field as well on top of form (OOB behaviour).\
+2. On save of record, if the error notification on field exists, notification will be on top of form as well(OOB behaviour).\
 ![Error Message on Save](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Save.PNG?raw=true, "Error Message on Save")
 
 ## Note:
