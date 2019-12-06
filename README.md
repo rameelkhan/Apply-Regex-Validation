@@ -1,5 +1,5 @@
 # Apply Regex Validation PCF (PowerApps Component Framework)
-Apply Regex Validation custom control is the Regex based field validation for text fields.
+Apply Regex Validation custom control is a Regex based field validator for text fields which uses Dynamics CRM client APIs to set and clear field level notifications.
 
 # Instructions to use:
 1. Install the managed solution (available with the most latest [release](https://github.com/rameelkhan/Apply-Regex-Validation/releases)) in your Dynamics CRM instance.
@@ -21,9 +21,6 @@ Apply Regex Validation custom control is the Regex based field validation for te
 ![Error Message on field change](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Field_Change.PNG?raw=true, "Error Message on field change")
 2. On save of record, if the error notification on field exists, notification will be on top of form as well(OOB behaviour).\
 ![Error Message on Save](https://github.com/rameelkhan/Apply-Regex-Validation/blob/master/ReadMeImages/Error_Message_On_Save.PNG?raw=true, "Error Message on Save")
-
-## Note:
-- As per Microsoft (and as of 12-Sept-2019), PowerApps Component Framework is a preview feature (not meant for production use and may have restricted functionality). These features are available before an official release so that customers can get early access and provide feedback.
 
 # References:
 - https://docs.microsoft.com/en-us/powerapps/developer/component-framework/implementing-controls-using-typescript
